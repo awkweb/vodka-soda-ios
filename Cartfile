@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire"
+github "SwiftyJSON/SwiftyJSON"
+github "onevcat/Kingfisher"
+github "facebook/Facebook-SDK-Swift"
+github "ReactiveCocoa/ReactiveCocoa"

@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2156EA82067353000A00A7C /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA12067353000A00A7C /* FacebookLogin.framework */; };
+		E2156EA92067353000A00A7C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA22067353000A00A7C /* Bolts.framework */; };
+		E2156EAA2067353000A00A7C /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA32067353000A00A7C /* Kingfisher.framework */; };
+		E2156EAB2067353000A00A7C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA42067353000A00A7C /* Alamofire.framework */; };
+		E2156EAC2067353000A00A7C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA52067353000A00A7C /* SwiftyJSON.framework */; };
+		E2156EAD2067353000A00A7C /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA62067353000A00A7C /* FacebookCore.framework */; };
+		E2156EAE2067353000A00A7C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EA72067353000A00A7C /* FBSDKCoreKit.framework */; };
+		E2156EB1206737D400A00A7C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2156EB0206737D400A00A7C /* FBSDKLoginKit.framework */; };
 		E2D02ECE206720FD007DA779 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D02ECD206720FD007DA779 /* AppDelegate.swift */; };
 		E2D02ED0206720FD007DA779 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D02ECF206720FD007DA779 /* ViewController.swift */; };
-		E2D02ED3206720FD007DA779 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D02ED1206720FD007DA779 /* Main.storyboard */; };
 		E2D02ED5206720FD007DA779 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D02ED4206720FD007DA779 /* Assets.xcassets */; };
 		E2D02ED8206720FD007DA779 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2D02ED6206720FD007DA779 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2156EA12067353000A00A7C /* FacebookLogin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookLogin.framework; path = Carthage/Build/iOS/FacebookLogin.framework; sourceTree = "<group>"; };
+		E2156EA22067353000A00A7C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
+		E2156EA32067353000A00A7C /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		E2156EA42067353000A00A7C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E2156EA52067353000A00A7C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+		E2156EA62067353000A00A7C /* FacebookCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookCore.framework; path = Carthage/Build/iOS/FacebookCore.framework; sourceTree = "<group>"; };
+		E2156EA72067353000A00A7C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		E2156EB0206737D400A00A7C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		E2D02ECA206720FD007DA779 /* vodka-soda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vodka-soda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D02ECD206720FD007DA779 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D02ECF206720FD007DA779 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2D02ED2206720FD007DA779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2D02ED4206720FD007DA779 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2D02ED7206720FD007DA779 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2D02ED9206720FD007DA779 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -29,17 +43,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2156EA82067353000A00A7C /* FacebookLogin.framework in Frameworks */,
+				E2156EB1206737D400A00A7C /* FBSDKLoginKit.framework in Frameworks */,
+				E2156EA92067353000A00A7C /* Bolts.framework in Frameworks */,
+				E2156EAA2067353000A00A7C /* Kingfisher.framework in Frameworks */,
+				E2156EAB2067353000A00A7C /* Alamofire.framework in Frameworks */,
+				E2156EAC2067353000A00A7C /* SwiftyJSON.framework in Frameworks */,
+				E2156EAD2067353000A00A7C /* FacebookCore.framework in Frameworks */,
+				E2156EAE2067353000A00A7C /* FBSDKCoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2156EA02067353000A00A7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2156EB0206737D400A00A7C /* FBSDKLoginKit.framework */,
+				E2156EA42067353000A00A7C /* Alamofire.framework */,
+				E2156EA22067353000A00A7C /* Bolts.framework */,
+				E2156EA62067353000A00A7C /* FacebookCore.framework */,
+				E2156EA12067353000A00A7C /* FacebookLogin.framework */,
+				E2156EA72067353000A00A7C /* FBSDKCoreKit.framework */,
+				E2156EA32067353000A00A7C /* Kingfisher.framework */,
+				E2156EA52067353000A00A7C /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E2D02EC1206720FD007DA779 = {
 			isa = PBXGroup;
 			children = (
 				E2D02ECC206720FD007DA779 /* vodka-soda */,
 				E2D02ECB206720FD007DA779 /* Products */,
+				E2156EA02067353000A00A7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +94,6 @@
 			children = (
 				E2D02ECD206720FD007DA779 /* AppDelegate.swift */,
 				E2D02ECF206720FD007DA779 /* ViewController.swift */,
-				E2D02ED1206720FD007DA779 /* Main.storyboard */,
 				E2D02ED4206720FD007DA779 /* Assets.xcassets */,
 				E2D02ED6206720FD007DA779 /* LaunchScreen.storyboard */,
 				E2D02ED9206720FD007DA779 /* Info.plist */,
@@ -74,6 +111,7 @@
 				E2D02EC6206720FD007DA779 /* Sources */,
 				E2D02EC7206720FD007DA779 /* Frameworks */,
 				E2D02EC8206720FD007DA779 /* Resources */,
+				E2156EAF206735EB00A00A7C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,11 +163,42 @@
 			files = (
 				E2D02ED8206720FD007DA779 /* LaunchScreen.storyboard in Resources */,
 				E2D02ED5206720FD007DA779 /* Assets.xcassets in Resources */,
-				E2D02ED3206720FD007DA779 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2156EAF206735EB00A00A7C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookLogin.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FBSDKLoginKit.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Bolts.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FacebookCore.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FacebookLogin.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSDKCoreKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSDKLoginKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E2D02EC6206720FD007DA779 /* Sources */ = {
@@ -144,14 +213,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2D02ED1206720FD007DA779 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2D02ED2206720FD007DA779 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2D02ED6206720FD007DA779 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -276,12 +337,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCFAPK739L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "vodka-soda/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.meagher.vodka-soda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -291,12 +357,17 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LCFAPK739L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "vodka-soda/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "co.meagher.vodka-soda";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
