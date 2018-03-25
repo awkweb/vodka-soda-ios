@@ -8,5 +8,5 @@
 > git clone https://github.com/tmm/vodka-soda-ios.git
 > cd vodka-soda-ios
 > brew update && brew install carthage
-> carthage update
+> carthage update --platform iOS
 ```
