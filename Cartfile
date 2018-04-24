@@ -1,5 +1,5 @@
-github "Alamofire/Alamofire"
-github "SwiftyJSON/SwiftyJSON"
-github "onevcat/Kingfisher"
+github "Alamofire/Alamofire" ~> 4.7
 github "facebook/Facebook-SDK-Swift"
-github "ReactiveCocoa/ReactiveCocoa"
+github "Moya/Moya"
+github "ReactiveX/RxSwift" ~> 4.0
+github "SwiftyJSON/SwiftyJSON" ~> 4.0
