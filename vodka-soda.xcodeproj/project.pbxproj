@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E20CEC5D208FB62A00996776 /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC57208FB62A00996776 /* FacebookCore.framework */; };
-		E20CEC5E208FB62A00996776 /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC58208FB62A00996776 /* FacebookLogin.framework */; };
-		E20CEC5F208FB62A00996776 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC59208FB62A00996776 /* FBSDKCoreKit.framework */; };
-		E20CEC60208FB62A00996776 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC5A208FB62A00996776 /* Bolts.framework */; };
-		E20CEC61208FB62A00996776 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC5B208FB62A00996776 /* FBSDKLoginKit.framework */; };
-		E20CEC64208FB87400996776 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC5C208FB62A00996776 /* Moya.framework */; };
+		E25E7A4C208FC7CA0078FC6D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2496466208FC4E6001FD53A /* Alamofire.framework */; };
+		E25E7A4D208FC7CA0078FC6D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC5A208FB62A00996776 /* Bolts.framework */; };
+		E25E7A4E208FC7CA0078FC6D /* FacebookCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC57208FB62A00996776 /* FacebookCore.framework */; };
+		E25E7A4F208FC7CA0078FC6D /* FacebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC58208FB62A00996776 /* FacebookLogin.framework */; };
+		E25E7A50208FC7CA0078FC6D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC59208FB62A00996776 /* FBSDKCoreKit.framework */; };
+		E25E7A51208FC7CA0078FC6D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20CEC5B208FB62A00996776 /* FBSDKLoginKit.framework */; };
+		E25E7A52208FC7CA0078FC6D /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2496468208FC4EA001FD53A /* Moya.framework */; };
+		E25E7A56208FC7CB0078FC6D /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E7A53208FC7CB0078FC6D /* Result.framework */; };
+		E25E7A57208FC7CB0078FC6D /* RxMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E7A54208FC7CB0078FC6D /* RxMoya.framework */; };
+		E25E7A58208FC7CB0078FC6D /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E7A55208FC7CB0078FC6D /* RxSwift.framework */; };
+		E25E7A5B208FC8C70078FC6D /* VodkaSodaAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E7A5A208FC8C70078FC6D /* VodkaSodaAPI.swift */; };
+		E25E7A5D208FC8E40078FC6D /* AuthPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E7A5C208FC8E40078FC6D /* AuthPlugin.swift */; };
+		E25E7A60208FC9040078FC6D /* VodkaSodaSecrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E7A5F208FC9040078FC6D /* VodkaSodaSecrets.swift */; };
+		E25E7A62208FCDA90078FC6D /* CustomServerTrustPoliceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25E7A61208FCDA90078FC6D /* CustomServerTrustPoliceManager.swift */; };
+		E25E7A64208FCEE30078FC6D /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25E7A63208FCEE30078FC6D /* SwiftyJSON.framework */; };
 		E2B86910208FB49500EA99C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B8690F208FB49500EA99C5 /* AppDelegate.swift */; };
 		E2B86912208FB49500EA99C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B86911208FB49500EA99C5 /* ViewController.swift */; };
-		E2B86915208FB49500EA99C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B86913208FB49500EA99C5 /* Main.storyboard */; };
 		E2B86917208FB49500EA99C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B86916208FB49500EA99C5 /* Assets.xcassets */; };
 		E2B8691A208FB49500EA99C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B86918208FB49500EA99C5 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -26,12 +34,20 @@
 		E20CEC59208FB62A00996776 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = Carthage/Build/iOS/FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		E20CEC5A208FB62A00996776 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Carthage/Build/iOS/Bolts.framework; sourceTree = "<group>"; };
 		E20CEC5B208FB62A00996776 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = Carthage/Build/iOS/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		E20CEC5C208FB62A00996776 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
-		E249644F208FBF10001FD53A /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		E2496464208FC3D2001FD53A /* ReactiveSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveSwift.framework; path = Carthage/Build/iOS/ReactiveSwift.framework; sourceTree = "<group>"; };
+		E2496466208FC4E6001FD53A /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		E2496468208FC4EA001FD53A /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = Carthage/Build/iOS/Moya.framework; sourceTree = "<group>"; };
+		E25E7A53208FC7CB0078FC6D /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		E25E7A54208FC7CB0078FC6D /* RxMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxMoya.framework; path = Carthage/Build/iOS/RxMoya.framework; sourceTree = "<group>"; };
+		E25E7A55208FC7CB0078FC6D /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		E25E7A5A208FC8C70078FC6D /* VodkaSodaAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSodaAPI.swift; sourceTree = "<group>"; };
+		E25E7A5C208FC8E40078FC6D /* AuthPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPlugin.swift; sourceTree = "<group>"; };
+		E25E7A5F208FC9040078FC6D /* VodkaSodaSecrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VodkaSodaSecrets.swift; sourceTree = "<group>"; };
+		E25E7A61208FCDA90078FC6D /* CustomServerTrustPoliceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomServerTrustPoliceManager.swift; sourceTree = "<group>"; };
+		E25E7A63208FCEE30078FC6D /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
 		E2B8690C208FB49500EA99C5 /* vodka-soda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vodka-soda.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2B8690F208FB49500EA99C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2B86911208FB49500EA99C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E2B86914208FB49500EA99C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2B86916208FB49500EA99C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2B86919208FB49500EA99C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2B8691B208FB49500EA99C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,12 +58,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20CEC64208FB87400996776 /* Moya.framework in Frameworks */,
-				E20CEC5D208FB62A00996776 /* FacebookCore.framework in Frameworks */,
-				E20CEC5E208FB62A00996776 /* FacebookLogin.framework in Frameworks */,
-				E20CEC5F208FB62A00996776 /* FBSDKCoreKit.framework in Frameworks */,
-				E20CEC60208FB62A00996776 /* Bolts.framework in Frameworks */,
-				E20CEC61208FB62A00996776 /* FBSDKLoginKit.framework in Frameworks */,
+				E25E7A56208FC7CB0078FC6D /* Result.framework in Frameworks */,
+				E25E7A57208FC7CB0078FC6D /* RxMoya.framework in Frameworks */,
+				E25E7A58208FC7CB0078FC6D /* RxSwift.framework in Frameworks */,
+				E25E7A4C208FC7CA0078FC6D /* Alamofire.framework in Frameworks */,
+				E25E7A4D208FC7CA0078FC6D /* Bolts.framework in Frameworks */,
+				E25E7A4E208FC7CA0078FC6D /* FacebookCore.framework in Frameworks */,
+				E25E7A4F208FC7CA0078FC6D /* FacebookLogin.framework in Frameworks */,
+				E25E7A50208FC7CA0078FC6D /* FBSDKCoreKit.framework in Frameworks */,
+				E25E7A51208FC7CA0078FC6D /* FBSDKLoginKit.framework in Frameworks */,
+				E25E7A52208FC7CA0078FC6D /* Moya.framework in Frameworks */,
+				E25E7A64208FCEE30078FC6D /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,20 +78,43 @@
 		E20CEC56208FB62A00996776 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E25E7A63208FCEE30078FC6D /* SwiftyJSON.framework */,
+				E25E7A53208FC7CB0078FC6D /* Result.framework */,
+				E25E7A54208FC7CB0078FC6D /* RxMoya.framework */,
+				E25E7A55208FC7CB0078FC6D /* RxSwift.framework */,
+				E2496468208FC4EA001FD53A /* Moya.framework */,
+				E2496466208FC4E6001FD53A /* Alamofire.framework */,
+				E2496464208FC3D2001FD53A /* ReactiveSwift.framework */,
 				E20CEC5A208FB62A00996776 /* Bolts.framework */,
 				E20CEC57208FB62A00996776 /* FacebookCore.framework */,
 				E20CEC58208FB62A00996776 /* FacebookLogin.framework */,
 				E20CEC59208FB62A00996776 /* FBSDKCoreKit.framework */,
 				E20CEC5B208FB62A00996776 /* FBSDKLoginKit.framework */,
-				E20CEC5C208FB62A00996776 /* Moya.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E25E7A59208FC8B60078FC6D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E25E7A5A208FC8C70078FC6D /* VodkaSodaAPI.swift */,
+				E25E7A5C208FC8E40078FC6D /* AuthPlugin.swift */,
+				E25E7A61208FCDA90078FC6D /* CustomServerTrustPoliceManager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		E25E7A5E208FC8EE0078FC6D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E25E7A5F208FC9040078FC6D /* VodkaSodaSecrets.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		E2B86903208FB49500EA99C5 = {
 			isa = PBXGroup;
 			children = (
-				E249644F208FBF10001FD53A /* Moya.framework */,
 				E2B8690E208FB49500EA99C5 /* vodka-soda */,
 				E2B8690D208FB49500EA99C5 /* Products */,
 				E20CEC56208FB62A00996776 /* Frameworks */,
@@ -88,9 +132,10 @@
 		E2B8690E208FB49500EA99C5 /* vodka-soda */ = {
 			isa = PBXGroup;
 			children = (
+				E25E7A5E208FC8EE0078FC6D /* Utils */,
+				E25E7A59208FC8B60078FC6D /* Networking */,
 				E2B8690F208FB49500EA99C5 /* AppDelegate.swift */,
 				E2B86911208FB49500EA99C5 /* ViewController.swift */,
-				E2B86913208FB49500EA99C5 /* Main.storyboard */,
 				E2B86916208FB49500EA99C5 /* Assets.xcassets */,
 				E2B86918208FB49500EA99C5 /* LaunchScreen.storyboard */,
 				E2B8691B208FB49500EA99C5 /* Info.plist */,
@@ -108,7 +153,7 @@
 				E2B86908208FB49500EA99C5 /* Sources */,
 				E2B86909208FB49500EA99C5 /* Frameworks */,
 				E2B8690A208FB49500EA99C5 /* Resources */,
-				E20CEC63208FB6F300996776 /* ShellScript */,
+				0M55YQ7B6VRD6Z04I1ERHIT4 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -160,27 +205,43 @@
 			files = (
 				E2B8691A208FB49500EA99C5 /* LaunchScreen.storyboard in Resources */,
 				E2B86917208FB49500EA99C5 /* Assets.xcassets in Resources */,
-				E2B86915208FB49500EA99C5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E20CEC63208FB6F300996776 /* ShellScript */ = {
+		0M55YQ7B6VRD6Z04I1ERHIT4 /* Carthage */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 12;
+			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Bolts.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework",
-				"$(SRCROOT)/Carthage/Build/iOS/FacebookLogin.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBSDKCoreKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FBSDKLoginKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/FacebookLogin.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Moya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Result.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxMoya.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
+			name = Carthage;
 			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Bolts.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSDKCoreKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FBSDKLoginKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FacebookCore.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/FacebookLogin.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Moya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Result.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxMoya.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -193,7 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25E7A5D208FC8E40078FC6D /* AuthPlugin.swift in Sources */,
+				E25E7A5B208FC8C70078FC6D /* VodkaSodaAPI.swift in Sources */,
+				E25E7A62208FCDA90078FC6D /* CustomServerTrustPoliceManager.swift in Sources */,
 				E2B86912208FB49500EA99C5 /* ViewController.swift in Sources */,
+				E25E7A60208FC9040078FC6D /* VodkaSodaSecrets.swift in Sources */,
 				E2B86910208FB49500EA99C5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,14 +266,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E2B86913208FB49500EA99C5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E2B86914208FB49500EA99C5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E2B86918208FB49500EA99C5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
