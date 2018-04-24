@@ -7,8 +7,8 @@
 Grab the repo and install dependencies with [`Carthage`](https://github.com/Carthage):
 
 ```bash
-> git clone https://github.com/tmm/vodka-soda.git
-> cd vodka-soda
+> git clone https://github.com/tmm/vodka-soda-ios.git
+> cd vodka-soda-ios
 > brew update && brew install carthage
 > carthage update --platform ios
 ```
